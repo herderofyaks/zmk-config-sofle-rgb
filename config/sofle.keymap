@@ -77,7 +77,7 @@
 //              |      |       |       |      |      |  |      |      |      |       |      |
             bindings = <
 &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4             &trans    &trans    &trans   &trans    &trans  &none
-&kp TILDE   &trans      &kp PSCRN   &trans      &trans      &trans                                  &kp PG_UP   &kp HOME    &kp UP      &kp END     &trans      &trans
+&trans   &trans      &kp PSCRN   &trans      &trans      &trans                                  &kp PG_UP   &kp HOME    &kp UP      &kp END     &trans      &trans
 &trans      &trans      &trans      &trans      &trans      &trans                                  &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &trans      &trans
 &trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp PRINTSCREEN &trans      &trans      &trans      &trans      &trans      &trans
                         &trans      &trans      &trans      &kp DELETE  &trans      &trans          &trans      &trans      &trans      &trans      
