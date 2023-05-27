@@ -43,7 +43,7 @@
 &kp TAB     &kp Q       &kp W       &kp E       &kp R       &kp T                                       &kp Y       &kp U       &kp I       &kp O       &kp P       &kp MINUS
 &kp LCTRL   &kp A       &kp S       &kp D       &kp F       &kp G                                       &kp H       &kp J       &kp K       &kp L       &kp SEMI    &kp SQT
 &kp LSHFT   &kp Z       &kp X       &kp C       &kp V       &kp B   &kp C_MUTE          &kp LEFT_GUI    &kp N       &kp M       &kp COMMA   &kp DOT     &kp FSLH    &kp RSHFT
-                    &kp LALT   &kp INSERT  &mo 1   &kp BACKSPACE    &kp BACKSLASH       &kp RETURN      &kp SPACE   &mo 1       &kp LBKT    &kp RBKT
+                    &kp LALT   &kp INSERT  &mo 1   &kp BACKSPACE    &kp BACKSLASH       &kp RETURN      &kp SPACE   &mo 2       &kp LBKT    &kp RBKT
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
@@ -62,7 +62,7 @@
 &kp TILDE   &trans      &kp PSCRN   &trans      &trans      &trans                                  &kp PG_UP   &kp HOME    &kp UP      &kp END     &trans      &trans
 &kp GRAVE   &trans      &trans      &trans      &trans      &trans                                  &kp PG_DN   &kp LEFT    &kp DOWN    &kp RIGHT   &trans      &trans
 &trans      &trans      &trans      &trans      &trans      &trans      &trans      &kp PRINTSCREEN &trans      &trans      &trans      &trans      &trans      &trans
-                        &trans      &trans      &mo 2      &kp DELETE  &trans      &trans          &trans       &mo 2       &code_braces &trans            
+                        &trans      &trans      &trans      &kp DELETE  &trans      &trans          &trans       &trans       &code_braces &trans            
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN &inc_dec_kp PG_UP PG_DN>;
